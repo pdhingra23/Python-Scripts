@@ -1,0 +1,9 @@
+
+print ("Hello World!")
+name = raw_input('Please Enter your name: ')
+age = raw_input('Please enter your age: ')
+if (name == "Tom" and age >= 15) :
+	print ('Hi Tom!, how are you?')
+	print ('According to your age, you should be mature.')
+elif (name == "Erk" and age != 20) :
+	print ('Nice to meet you Erk, Please have a seat!!')
